@@ -98,7 +98,7 @@ export default class Presentation extends React.Component {
             src={require('../assets/array-example.jpg')}
           />
           <Image
-            height={450}
+            height={150}
             width={550}
             src={require('../assets/filter-examples.jpg')}
           />
@@ -116,8 +116,8 @@ export default class Presentation extends React.Component {
             src={require('../assets/array-example.jpg')}
           />
           <Image
-            height={450}
-            width={720}
+            height={200}
+            width={520}
             src={require('../assets/find-examples.jpg')}
           />
         </Slide>
@@ -134,7 +134,7 @@ export default class Presentation extends React.Component {
             src={require('../assets/reduce-array-example.jpg')}
           />
           <Image
-            height={220}
+            height={200}
             width={700}
             src={require('../assets/reduce-examples.jpg')}
           />
@@ -142,7 +142,7 @@ export default class Presentation extends React.Component {
 
         <Slide transition={['fade']} bgColor="tertiary">
           <Heading size={3} textColor="secondary">
-            THE END.
+            ['hip','hip']
           </Heading>
         </Slide>
       </Deck>
